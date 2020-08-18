@@ -1,0 +1,2 @@
+include ':app', ':cakechartview'
+rootProject.name='CakeChartView'
