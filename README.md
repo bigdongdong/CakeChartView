@@ -44,11 +44,13 @@ List<T> list = new ArrayList<T>();
 ccv.setAdapter(new CakeAdapter<T>(list) {
             /**
              * 设置是否为静态
-             * @return true-则从{@link CakeAdapter#item(Object, int)}中获取选中状态
-             *         false-则从手指点击选中获取选中状态
              */
             @Override
             public boolean isStatic() {
+	    	/**
+		* 返回true-则从{@link CakeAdapter#item(Object, int)}中获取选中状态
+             	* 返回false-则从手指点击选中获取选中状态
+		*/
                 return true;
             }
 
