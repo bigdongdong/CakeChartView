@@ -60,20 +60,30 @@ public class MainActivity extends AppCompatActivity {
         ccv.setAdapter(new CakeAdapter<Bean>(list) {
             @Override
             public boolean isStatic() {
-                return false;
+                return true;
             }
 
+            /**
+             * 设置cake的基础样式
+             * @return
+             */
             @Override
             public BaseConfig base() {
                 return new BaseConfig(
-                        Color.parseColor("#11111111"),
-                        10,
-                        Color.BLACK,
-                        0.5f,
-                        0.65f
+                        Color.parseColor("#11111111"),    //底色，影子颜色
+                        10,                                 //文字大小，单位：sp
+                        Color.BLACK,                                //文字颜色
+                        0.5f,                            //中心镂空半径与整个cake的半径比
+                        0.65f                             //文字所在位置半径与整个cake的半径比
                 );
             }
 
+            /**
+             * 设置cake中每一块的数据
+             * @param bean
+             * @param position 坐标
+             * @return
+             */
             @Override
             public ItemConfig item(Bean bean,int position) {
                 return new ItemConfig(
