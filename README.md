@@ -1,15 +1,13 @@
 # CakeChartView
-饼图
+饼图 </br>
+<img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/preview.gif"></img></br>
+</br>
 
 # 截图预览（Screen Recrod）
 <img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/1.jpg"></img>
 <img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/2.jpg"></img></br>
 <img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/3.png"></img>
 <img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/4.png"></img></br>
-<!--
-<img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen.jpg"></img>
-<img  width = "350" src = "https://github.com/bigdongdong/ChatView/blob/master/preview/chat_screen2.jpg"></img>
--->
 
 # 项目配置
 
