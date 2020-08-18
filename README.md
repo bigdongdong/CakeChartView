@@ -49,7 +49,7 @@ ccv.setAdapter(new CakeAdapter<T>(list) {
              */
             @Override
             public boolean isStatic() {
-                return false;
+                return true;
             }
 
              /**
@@ -79,7 +79,8 @@ ccv.setAdapter(new CakeAdapter<T>(list) {
                         t.getColor(),           //从泛型元素中获取单个item的颜色
                         t.getText(),            //从泛型元素中获取单个item的文字
                         t.getRatio(),           //从泛型元素中获取单个item所占整个cake的比例
-                        position == 5           //设置当前item的选中状态，【如果isStatic()返回false，则这里设置失效】
+                        position == 5           //设置当前item的选中状态，【如果isStatic()返回false，则这里设置失效，
+											可以选择三个参数的构造函数】
                 );
             }
         });
