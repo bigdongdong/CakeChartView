@@ -1,5 +1,5 @@
 # CakeChartView
-饼图 </br>
+饼图，支持手指交互和多项展开 </br>
 <img  width = "350" src = "https://github.com/bigdongdong/CakeChartView/blob/master/preview/preview.gif"></img></br>
 </br>
 
